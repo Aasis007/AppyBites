@@ -1,0 +1,276 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roshan.appybites.Nav_view_menu.Profile">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:text="Change your Password"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="84dp" />
+
+    <Button
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:text="Edit Your account Information"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:text="Modify Address Book"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:text="View Order Histroy"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignTop="@+id/button4" />
+
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Enter New Password"
+        android:inputType="textPassword"
+        android:id="@+id/pwd"
+        android:visibility="gone"/>
+
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:id="@+id/newpwd"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/pwd"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:id="@+id/ewnewpwd"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/newpwd"
+        android:layout_toEndOf="@+id/textView6"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:text="Update"
+        android:background="@drawable/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ewnewpwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:id="@+id/updte"
+        android:visibility="gone"/>
+
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="First Name"
+        android:inputType="textPassword"
+        android:id="@+id/newname"
+        android:layout_below="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:visibility="gone"/>
+
+    <Button
+        android:text="Update"
+        android:background="@drawable/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:id="@+id/updte2"
+        android:layout_below="@+id/nephone"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>/>
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/newmail"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/newlname"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Last Name"
+        android:inputType="textPassword"
+        android:id="@+id/newlname"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:visibility="gone"/>/>
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Phone"
+        android:inputType="number"
+        android:id="@+id/nephone"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/newlname"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+
+
+
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="New Address"
+        android:inputType="text"
+        android:id="@+id/newadd"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        android:layout_below="@+id/newlname"/>
+
+
+    <EditText
+        android:ems="10"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_text"
+        android:hint="Zip Postal"
+        android:inputType="number"
+        android:id="@+id/newpostal"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/newadd"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:text="Update"
+        android:background="@drawable/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:id="@+id/updte3"
+        android:layout_below="@+id/newpostal"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:text="Logout"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:text="Your Transactions"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_alignParentEndt="true"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

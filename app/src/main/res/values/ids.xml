@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Nirjala" type="id">NIRJALA RAUT</item>
+    <item name="Chera" type="id">CHERA AMLAG</item>
+    <item name="MIKIM" type="id">MI KIM</item>
+    <item name="Matthew" type="id">MATTHEW HUNT</item>
+    <item name="tab1" type="id">Catering</item>
+    <item name="catering" type="id">Catering</item>
+</resources>

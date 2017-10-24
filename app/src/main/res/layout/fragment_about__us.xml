@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#Dfe3ee"
+    tools:context="com.example.roshan.appybites.Nav_view_menu.About_Us">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp">
+
+
+        <TextView
+            android:text="Appy Bite is an idea that strives to provide busy people with an opportunity to eat healthy and delicious meals with just a touch of a button.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="33dp"
+            android:id="@+id/textView4" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="56dp"
+            android:layout_toStartOf="@+id/imageView2">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ProfessionalANDPersonal
+
+Lish Chefs are independent artisans who are passionate about crafting locally-sourced,scratch-made meals using fresh ingredients. Each chef tells their unique story through their food, bringing a variety of cuisines and styles to our rotating menu. All the meals are prepared in a commercially certified kitchen
+
+"
+                android:layout_weight="1.0"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abt"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="We bring you handcrafted meals from the best local chefs."
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginBottom="45dp"
+            android:layout_alignParentStart="true">
+
+
+            <TextView
+                android:text="Compostable Packaging
+
+All of our food is delivered in environmentally friendly packaging. Our trays are compostable and decompose within 60 days. No forests are destroyed in making the trays. We also minimize use of plastics and limit it to post-recycled material. "
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:id="@+id/textView5" />
+</FrameLayout>
+
+

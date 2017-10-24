@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#38b325</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="toolbarStyle">@style/Widget.Toolbar</item>
+    </style>
+</resources>

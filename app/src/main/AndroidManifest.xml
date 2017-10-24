@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roshan.appybites">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="screenSize|orientation|screenLayout"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultsActivity" />
+        <activity
+            android:name=".Chef.chef_nirjala"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chef.Chef_description"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chef.Chef_mikim"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chef.Chef_mathew"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Item_description"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Today_Menu.day_two"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Today_Menu.day_three"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Today_Menu.day_four"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Today_Menu.day_five"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Today_Menu.day_seven"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Today_Menu.day_six"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Carts"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Search results activity -->
+        <activity android:name=".SearchResultsActivity"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeScreen"
+            android:configChanges="screenSize|orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            >
+        </activity>
+    </application>
+
+</manifest>

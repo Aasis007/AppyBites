@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "360798300352",
+    "firebase_url": "https://appybites.firebaseio.com",
+    "project_id": "appybites",
+    "storage_bucket": "appybites.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360798300352:android:9579553e3ed6ace4",
+        "android_client_info": {
+          "package_name": "com.example.roshan.appybites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360798300352-2l8544t6ndqldn3lf7gn9fpki403lrha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARENn3S5He5sp53Dq8IL2ReIGXcW3lmTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

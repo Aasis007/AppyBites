@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#Dfe3ee"
+    android:layout_marginTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.roshan.appybites.MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       android:background="#fff"
+       android:orientation="horizontal">
+
+       <FrameLayout
+           android:layout_weight="1"
+           android:layout_marginRight="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:id="@+id/txt_sec_day"
+               android:background="@drawable/textinputdrawer"
+               android:text="Sun"
+               android:paddingTop="5dp"
+               android:textAlignment="center"
+               />
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:id="@+id/txt_sec_date"
+               android:background="@drawable/txt_date_inpt"
+               android:text="31"
+               android:padding="5dp"
+               android:textAlignment="center"
+               android:textColor="@android:color/white"
+               />
+
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_weight="1"
+           android:layout_marginRight="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           android:id="@+id/txt_third_day"
+           android:background="@drawable/textinputdrawer"
+           android:text="Mon"
+           android:paddingTop="5dp"
+           android:textAlignment="center"/>
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:id="@+id/txt_third_date"
+               android:background="@drawable/txt_date_inpt"
+               android:text="31"
+               android:padding="5dp"
+               android:textAlignment="center"
+               android:textColor="@android:color/white"
+               />
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           android:paddingTop="5dp"
+           android:textAlignment="center"
+           android:id="@+id/txt_forth_day"
+           android:background="@drawable/textinputdrawer"
+           android:text="Tue"
+            />
+
+           <TextView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:id="@+id/txt_forth_date"
+               android:background="@drawable/txt_date_inpt"
+               android:text="31"
+               android:padding="5dp"
+               android:textAlignment="center"
+               android:textColor="@android:color/white"
+               />
+       </FrameLayout>
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:paddingTop="5dp"
+                android:id="@+id/txt_fifth_day"
+                android:background="@drawable/textinputdrawer"
+                android:text="Wed"
+                />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/txt_fifth_date"
+                android:background="@drawable/txt_date_inpt"
+                android:text="31"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingTop="5dp"
+                android:textAlignment="center"
+                android:id="@+id/txt_sixth_Day"
+                android:background="@drawable/textinputdrawer"
+                android:text="Thu"
+                />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/txt_sixth_date"
+                android:background="@drawable/txt_date_inpt"
+                android:text="31"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingTop="5dp"
+                android:textAlignment="center"
+                android:id="@+id/txt_seven_day"
+                android:background="@drawable/textinputdrawer"
+                android:text="Fri"
+                />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/txt_seven_date"
+                android:background="@drawable/txt_date_inpt"
+                android:text="31"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:id="@+id/txt_today"
+            android:text="Friday-Todays Menu"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:background="#Dfe3ee"
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbarThumbVertical="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>
